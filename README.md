@@ -1,6 +1,6 @@
 ❗❗ Replace this readme with a description of your project as soon as possible ❗❗
 
-# python-template-mini
+# python-template-midi
 Hi! This is an intermediate template for Python projects. 
 The main purpose of this template is to introduce you to structuring your code like a package, and managing requirements.
 However, it is not intended to teach you how to write good code. 
@@ -11,9 +11,9 @@ That part is up to you :)
 
 |        | link | Focus                             |
 |:------:|:----:|-----------------------------------|
-| 🐍     | [Mini](https://github.com/adraismawur/python-template-mini) | File and code structure           |
-| 🐍🐍   | [Midi](https://github.com/adraismawur/python-template-midi) | Requirements and packaging        |
-| 🐍🐍🐍 | [Maxi](https://github.com/adraismawur/python-template-maxi) | Testing, Automatic formatting and checks   |
+| 🐍     | [Mini](https://github.com/adraismawur/python-template-mini) | File and code structure |
+| 🐍🐍   | [Midi](https://github.com/adraismawur/python-template-midi) | Environments, Requirements and packaging |
+| 🐍🐍🐍 | [Maxi](https://github.com/adraismawur/python-template-maxi) | Testing, Automatic formatting and checks |
 
 
 ### Table of contents:
@@ -78,6 +78,23 @@ Things to consider while you do so:
 
 
 ## Why should I use this?
+
+### Environment managers
+
+Almost every Python program you write uses external modules/packages (e.g. Pandas, Numpy). 
+These external programs are under constant development and come in different versions. 
+Different programs may use different versions of the same module/package. 
+For example Project_A uses pandas v1.8.0, while Project_B uses pandas v2.1.0. 
+However, having multiple versions of the same program installed on your computer may lead to errors and general confusion.
+
+This problem is solved with virtual environments: these represent "folders" in which specific versions of programs can be installed. 
+For example, Project_A would have pandas v1.8.0 installed in its virtual environment, while Project_B would have pandas v2.1.0.
+
+Virtual environments can also be easily removed after they are not needed anymore (including all the packages that they contain). 
+This allows to keep your computer (the so-called base environment) clean.
+Several environment managers are available. 
+One example is Conda (or its lightweight version, MiniConda), which is widely used. 
+More information on virtual environments can be found [here](https://realpython.com/python-virtual-environments-a-primer/).
 
 ### Requirements
 
