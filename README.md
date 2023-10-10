@@ -120,9 +120,9 @@ Your software might not end up as a package that will be installed by other peop
 ## What is included in this repository?
 
 - Everything that is included in the [Mini repository](https://github.com/adraismawur/python-template-mini)
-  - A [README](#a-readme-file) file
-  - A (copyleft) [license](#a-license)
-  - A basic [folder structure](#folder-structure)
+  - A README file
+  - A (copyleft) license
+  - A basic folder structure
   - A .gitignore file
 - A pyproject.toml file
 - A requirements.txt file
@@ -131,4 +131,6 @@ Your software might not end up as a package that will be installed by other peop
 TODO
 
 ### requirements.txt
-TODO
+A requirements file makes it easy for people to automatically install the same dependencies you used to develop and run your application. 
+You can also fix your requirements to specific version numbers to ensure that people can use the exact same dependencies and re-produce your work.
+
