@@ -21,6 +21,7 @@ That part is up to you :)
 - [Quick start](#quick-start)
 - [Why should I use this?](#why-should-i-use-this)
 - [What is included in this repository?](#what-is-included-in-this-repository)
+- [Guide to elements introduced here](#guide-to-elements-introduced-here)
 
 ## Quick start:
 
@@ -91,6 +92,8 @@ These elements will help you in the future if you want to make an application th
   - A .gitignore file
 - A pyproject.toml file
 - A requirements.txt file
+
+## Guide to elements introduced here
 
 ### Requirements (requirements.txt)
 
