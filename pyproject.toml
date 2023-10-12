@@ -1,22 +1,15 @@
-[build-system]
-requires = ["hatchling", "hatch-requirements-txt"]
-build-backend = "hatchling.build"
-
 [project]
+# basic information
 name = "your_project_name"
-readme = "README.md"
-requires-python = ">=3.11"
 description = "A description of your awesome Python project"
-# This is the version of your project. You can increase the counter to indicate changes
-version = "0.1.0"
-dynamic = ["dependencies"]
-
-
-[tool.hatch.metadata.hooks.requirements_txt]
-files = ["requirements.txt"]
-
-# This is where you tell the installer where your code lives
-pythonpath = [
-  "your_project_name"
+authors = [
+  {name = "Your Name", email = "example@email.xyz"},
 ]
 
+# This is the version of your project. You can increase the counter to indicate changes
+version = "0.1.0"
+
+# it is nice to pin down the version used to develop the project
+requires-python = ">=3.9"
+
+readme = "README.md"
