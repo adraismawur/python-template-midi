@@ -19,8 +19,8 @@ That part is up to you :)
 ### Table of contents:
 
 - [Quick start](#quick-start)
-- [What is included in this repository?](#what-is-included-in-this-repository)
 - [Why should I use this?](#why-should-i-use-this)
+- [What is included in this repository?](#what-is-included-in-this-repository)
 
 ## Quick start:
 
@@ -79,7 +79,20 @@ Things to consider while you do so:
 
 ## Why should I use this?
 
-### Requirements
+This template is intended to give you a nice start in managing the elements that your code depends on (requirements), and teaches you how to package your code.
+These elements will help you in the future if you want to make an application that is downloadable and installable by other people.
+
+## What is included in this repository?
+
+- Everything that is included in the [Mini repository](https://github.com/adraismawur/python-template-mini)
+  - A [README](#a-readme-file) file
+  - A (copyleft) [license](#a-license)
+  - A basic [folder structure](#folder-structure)
+  - A .gitignore file
+- A pyproject.toml file
+- A requirements.txt file
+
+### Requirements (requirements.txt)
 
 When you write code, you will likely use external libraries to do certain tasks that are either complex, or you do not want to re-implement.
 Examples include [numpy](https://numpy.org/) for numerical computing, [pandas](https://pandas.pydata.org/) for numerical computing / data analysis and scikit for machine learning.
@@ -93,25 +106,8 @@ To make your code reproducible on other machines, it is important to store:
 
 It is important to store both these bits of information, as different versions of dependencies can have different capabilities, and may not work the same as the version that was used when your project was developed.
 
-### Packaging
+### Packaging (pyproject.toml)
 
 Packaging is a broad term that involves the process of bundling your software and making it available to other people through distribution using some packaging system.
 
 Your software might not end up as a package that will be installed by other people, but the packaging capabilities of python's built in package manager help in describing your software and making it runnable from the command line if people choose to use your software in that way.
-
-
-## What is included in this repository?
-
-- Everything that is included in the [Mini repository](https://github.com/adraismawur/python-template-mini)
-  - A [README](#a-readme-file) file
-  - A (copyleft) [license](#a-license)
-  - A basic [folder structure](#folder-structure)
-  - A .gitignore file
-- A pyproject.toml file
-- A requirements.txt file
-
-### Pyproject.toml
-TODO
-
-### requirements.txt
-TODO
