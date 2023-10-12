@@ -1,6 +1,6 @@
 ❗❗ Replace this readme with a description of your project as soon as possible ❗❗
 
-# python-template-mini
+# python-template-midi
 Hi! This is an intermediate template for Python projects. 
 The main purpose of this template is to introduce you to structuring your code like a package, and managing requirements.
 However, it is not intended to teach you how to write good code. 
@@ -11,9 +11,9 @@ That part is up to you :)
 
 |        | link | Focus                             |
 |:------:|:----:|-----------------------------------|
-| 🐍     | [Mini](https://github.com/adraismawur/python-template-mini) | File and code structure           |
-| 🐍🐍   | [Midi](https://github.com/adraismawur/python-template-midi) | Requirements and packaging        |
-| 🐍🐍🐍 | [Maxi](https://github.com/adraismawur/python-template-maxi) | Testing, Automatic formatting and checks   |
+| 🐍     | [Mini](https://github.com/adraismawur/python-template-mini) | File and code structure |
+| 🐍🐍   | [Midi](https://github.com/adraismawur/python-template-midi) | Environments, Requirements and packaging |
+| 🐍🐍🐍 | [Maxi](https://github.com/adraismawur/python-template-maxi) | Testing, Automatic formatting and checks |
 
 
 ### Table of contents:
