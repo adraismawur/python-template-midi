@@ -114,3 +114,18 @@ It is important to store both these bits of information, as different versions o
 Packaging is a broad term that involves the process of bundling your software and making it available to other people through distribution using some packaging system.
 
 Your software might not end up as a package that will be installed by other people, but the packaging capabilities of python's built in package manager help in describing your software and making it runnable from the command line if people choose to use your software in that way.
+
+### Your code as a package
+
+The combination of the requirements.txt and the pyproject.toml prepare your package in such a way that when a user installs the package using pip, your code can be run from anywhere (not only from the source directory).
+
+To try this, run ```pip install .``` in this directory.
+After installing the package, you should be able to run ```python -m your_project_name``` from anywhere.
+
+To remove the package you just installed, run ```pip uninstall your_project_name```
+
+### Using only the requirements.txt
+
+You may not want to install your code every time you make a change to the requirements.txt file.
+
+If you want to install just the requirements using the requirements.txt file, run ```pip install -r requirements.txt```
