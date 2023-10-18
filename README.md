@@ -43,7 +43,7 @@ That part is up to you :)
 4. Open a shell in the directory where you have extracted the files
 5. Edit the readme file to describe your project
 6. Run `git add .` to stage all files
-7. Run `Git commit -m "initial commit"` to make your first commit
+7. Run `git commit -m "initial commit"` to make your first commit
 
 ### Set up a remote repository (on GitHub)
 
