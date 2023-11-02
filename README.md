@@ -50,7 +50,7 @@ That part is up to you :)
 ❕Choose this if you want to ensure your code is always saved online, or if you want to share your code.
 
 1. Create a new repository of your own by pressing the green button in the top right named "use this template" -> Create a new repository.
-   Or [click here](https://github.com/new?template_name=python-template-mini&template_owner=adraismawur)
+   Or [click here](https://github.com/new?template_name=python-template-midi&template_owner=adraismawur)
 2. Give your repository a nice name and description
 3. Choose whether you want the repository to be public (anyone can see your code), or private.
 4. Press "Create repository"
